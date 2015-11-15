@@ -1,0 +1,59 @@
+{
+  "policy" : {
+    "id" : null,
+    "name" : "Elevated EC2 CPU Activity (Normal Network Activity)",
+    "description" : null,
+    "scope" : {
+      "elementName" : "",
+      "elementType" : "EC2",
+      "elementTags" : { }
+    },
+    "duration" : 1800,
+    "conditions" : [ {
+      "metric" : "aws.ec2.cpuutilization",
+      "wildcard" : null,
+      "analytic" : "baselineDeviation",
+      "operator" : ">",
+      "level" : null
+    }, {
+      "metric" : "aws.ec2.cpuutilization",
+      "wildcard" : null,
+      "analytic" : "contextualDeviation",
+      "operator" : ">",
+      "level" : null
+    }, {
+      "metric" : "netuitive.aws.ec2.bytesinpersec",
+      "wildcard" : null,
+      "analytic" : "baselineDeviation",
+      "operator" : "undefined",
+      "level" : null
+    }, {
+      "metric" : "netuitive.aws.ec2.bytesinpersec",
+      "wildcard" : null,
+      "analytic" : "contextualDeviation",
+      "operator" : "undefined",
+      "level" : null
+    }, {
+      "metric" : "netuitive.aws.ec2.bytesoutpersec",
+      "wildcard" : null,
+      "analytic" : "baselineDeviation",
+      "operator" : "undefined",
+      "level" : null
+    }, {
+      "metric" : "netuitive.aws.ec2.bytesoutpersec",
+      "wildcard" : null,
+      "analytic" : "contextualDeviation",
+      "operator" : "undefined",
+      "level" : null
+    } ],
+    "actions" : [ {
+      "type" : "event",
+      "category" : 1
+    } ],
+    "enabled" : false,
+    "deleted" : false,
+    "originTenantId" : null,
+    "originPolicyId" : null,
+    "lastUpdated" : null
+  }
+}
