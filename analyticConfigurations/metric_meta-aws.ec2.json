@@ -1,0 +1,44 @@
+{
+  "analyticConfiguration" : {
+    "tenantId" : null,
+    "type" : "METRIC_META",
+    "id" : null,
+    "packageId" : null,
+    "name" : "AWS EC2",
+    "scope" : {
+      "elementName" : null,
+      "elementType" : "EC2",
+      "elementTags" : null
+    },
+    "metrics" : [ {
+      "match" : "aws.ec2.cpucreditusage",
+      "properties" : {
+        "STATISTIC" : "sum"
+      }
+    }, {
+      "match" : "aws.ec2.disk.*",
+      "properties" : {
+        "STATISTIC" : "sum"
+      }
+    }, {
+      "match" : "aws.ec2.network.*",
+      "properties" : {
+        "STATISTIC" : "sum"
+      }
+    }, {
+      "match" : "aws.ec2.status.*",
+      "properties" : {
+        "STATISTIC" : "sum",
+        "validMax" : 5
+      }
+    }, {
+      "match" : "aws.ec2.cpuutilization",
+      "properties" : {
+        "tags" : {
+          "utilization" : true
+        },
+        "validMax" : 100
+      }
+    } ]
+  }
+}

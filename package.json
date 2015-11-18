@@ -37,19 +37,19 @@
   } ],
   "analyticConfigurations" : [ {
     "data" : {
-      "file" : "analyticConfigurations/ace-ec2.json",
+      "file" : "analyticConfigurations/ace-aws.ec2.json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "analyticConfigurations/computed_metric-ec2.json",
+      "file" : "analyticConfigurations/computed_metric-aws.ec2.json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "analyticConfigurations/metric_meta-ec2.201509.update.01.json",
+      "file" : "analyticConfigurations/metric_meta-aws.ec2.json",
       "encoding" : "application/json",
       "content" : null
     }

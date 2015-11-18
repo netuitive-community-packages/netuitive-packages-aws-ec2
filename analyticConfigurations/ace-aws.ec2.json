@@ -4,7 +4,7 @@
     "type" : "ACE",
     "id" : null,
     "packageId" : null,
-    "name" : "EC2",
+    "name" : "AWS EC2",
     "scope" : {
       "elementName" : null,
       "elementType" : "EC2",
