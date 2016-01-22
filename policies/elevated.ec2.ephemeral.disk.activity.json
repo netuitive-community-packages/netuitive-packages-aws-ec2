@@ -2,7 +2,7 @@
   "policy" : {
     "id" : null,
     "name" : "Elevated EC2 Ephemeral Disk Activity",
-    "description" : null,
+    "description" : "Indicates an increase in disk activity above what is considered to be normal.",
     "scope" : {
       "elementName" : "",
       "elementType" : "EC2",
@@ -10,25 +10,25 @@
     },
     "duration" : 1800,
     "conditions" : [ {
-      "metric" : "netuitive.aws.ec2.diskreadopspersec",
+      "metric" : "netuitive.aws.ec2.diskwriteopspersec",
       "wildcard" : null,
       "analytic" : "baselineDeviation",
       "operator" : ">",
       "level" : null
     }, {
-      "metric" : "netuitive.aws.ec2.diskreadopspersec",
+      "metric" : "netuitive.aws.ec2.diskwriteopspersec",
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : ">",
       "level" : null
     }, {
-      "metric" : "netuitive.aws.ec2.diskwriteopspersec",
+      "metric" : "netuitive.aws.ec2.diskreadopspersec",
       "wildcard" : null,
       "analytic" : "baselineDeviation",
       "operator" : ">",
       "level" : null
     }, {
-      "metric" : "netuitive.aws.ec2.diskwriteopspersec",
+      "metric" : "netuitive.aws.ec2.diskreadopspersec",
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : ">",
@@ -38,7 +38,7 @@
       "type" : "event",
       "category" : 1
     } ],
-    "enabled" : false,
+    "enabled" : true,
     "deleted" : false,
     "originTenantId" : null,
     "originPolicyId" : null,

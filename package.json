@@ -3,7 +3,7 @@
   "version" : "1.0.0",
   "manifest" : {
     "name" : "Netuitive Packages AWS EC2",
-    "description" : "A set of Netuitive analytics configurations, polices, dashboards and reports that are used to monitor AWS EC2 performance",
+    "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of AWS Elastic Compute Cloud (EC2) resources.",
     "author" : {
       "name" : "Netuitive Research",
       "email" : "research@netuitive.com"
@@ -24,13 +24,13 @@
     }
   }, {
     "data" : {
-      "file" : "policies/elevated.ec2.network.activity.json",
+      "file" : "policies/elevated.ec2.ephemeral.disk.activity.json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "policies/elevated.ec2.ephemeral.disk.activity.json",
+      "file" : "policies/elevated.ec2.network.activity.json",
       "encoding" : "application/json",
       "content" : null
     }
@@ -53,5 +53,6 @@
       "encoding" : "application/json",
       "content" : null
     }
-  } ]
+  } ],
+  "dashboards" : [ ]
 }

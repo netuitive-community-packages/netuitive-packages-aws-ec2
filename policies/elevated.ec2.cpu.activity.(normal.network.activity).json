@@ -2,7 +2,7 @@
   "policy" : {
     "id" : null,
     "name" : "Elevated EC2 CPU Activity (Normal Network Activity)",
-    "description" : null,
+    "description" : "Increases in CPU activity are not uncommon when there is a rise in network activity. Increased traffic to a server means more work for that server to do. This policy is designed to catch cases where CPU activity is higher than than normal, and said behavior cannot be explained by a corresponding increase in network traffic. It may or may not represent a problem, but it is useful to know about. ",
     "scope" : {
       "elementName" : "",
       "elementType" : "EC2",
@@ -10,18 +10,6 @@
     },
     "duration" : 1800,
     "conditions" : [ {
-      "metric" : "aws.ec2.cpuutilization",
-      "wildcard" : null,
-      "analytic" : "baselineDeviation",
-      "operator" : ">",
-      "level" : null
-    }, {
-      "metric" : "aws.ec2.cpuutilization",
-      "wildcard" : null,
-      "analytic" : "contextualDeviation",
-      "operator" : ">",
-      "level" : null
-    }, {
       "metric" : "netuitive.aws.ec2.bytesinpersec",
       "wildcard" : null,
       "analytic" : "baselineDeviation",
@@ -32,6 +20,18 @@
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : "undefined",
+      "level" : null
+    }, {
+      "metric" : "aws.ec2.cpuutilization",
+      "wildcard" : null,
+      "analytic" : "baselineDeviation",
+      "operator" : ">",
+      "level" : null
+    }, {
+      "metric" : "aws.ec2.cpuutilization",
+      "wildcard" : null,
+      "analytic" : "contextualDeviation",
+      "operator" : ">",
       "level" : null
     }, {
       "metric" : "netuitive.aws.ec2.bytesoutpersec",
@@ -50,7 +50,7 @@
       "type" : "event",
       "category" : 1
     } ],
-    "enabled" : false,
+    "enabled" : true,
     "deleted" : false,
     "originTenantId" : null,
     "originPolicyId" : null,
