@@ -1,8 +1,8 @@
 {
   "policy" : {
     "id" : null,
-    "name" : "Elevated EC2 Ephemeral Disk Activity",
-    "description" : "Indicates an increase in disk activity above what is considered to be normal.",
+    "name" : "AWS EC2 - Elevated Network Activity",
+    "description" : "Indicates an increase in network activity above what is considered to be normal.",
     "scope" : {
       "elementName" : "",
       "elementType" : "EC2",
@@ -10,25 +10,25 @@
     },
     "duration" : 1800,
     "conditions" : [ {
-      "metric" : "netuitive.aws.ec2.diskwriteopspersec",
+      "metric" : "netuitive.aws.ec2.bytesinpersec",
       "wildcard" : null,
       "analytic" : "baselineDeviation",
       "operator" : ">",
       "level" : null
     }, {
-      "metric" : "netuitive.aws.ec2.diskwriteopspersec",
+      "metric" : "netuitive.aws.ec2.bytesinpersec",
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : ">",
       "level" : null
     }, {
-      "metric" : "netuitive.aws.ec2.diskreadopspersec",
+      "metric" : "netuitive.aws.ec2.bytesoutpersec",
       "wildcard" : null,
       "analytic" : "baselineDeviation",
       "operator" : ">",
       "level" : null
     }, {
-      "metric" : "netuitive.aws.ec2.diskreadopspersec",
+      "metric" : "netuitive.aws.ec2.bytesoutpersec",
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : ">",

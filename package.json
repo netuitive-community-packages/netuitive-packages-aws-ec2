@@ -18,19 +18,19 @@
   },
   "policies" : [ {
     "data" : {
-      "file" : "policies/elevated.ec2.cpu.activity.(normal.network.activity).json",
+      "file" : "policies/aws.ec2.-.elevated.cpu.activity.(normal.network.activity).json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "policies/elevated.ec2.ephemeral.disk.activity.json",
+      "file" : "policies/aws.ec2.-.elevated.ephemeral.disk.activity.json",
       "encoding" : "application/json",
       "content" : null
     }
   }, {
     "data" : {
-      "file" : "policies/elevated.ec2.network.activity.json",
+      "file" : "policies/aws.ec2.-.elevated.network.activity.json",
       "encoding" : "application/json",
       "content" : null
     }
