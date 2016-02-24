@@ -1,6 +1,10 @@
-#netuitive.packages.aws.ec2 1.1.0
+#netuitive.packages.aws.ec2 1.1.1
 
 ##Release History
+
+###Version 1.1.1
+
+* Removed reference to obsolete metric.
 
 ###Version 1.1.0
 
