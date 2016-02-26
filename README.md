@@ -1,6 +1,11 @@
-#netuitive.packages.aws.ec2 1.1.1
+#netuitive.packages.aws.ec2 1.2.0
 
 ##Release History
+
+###Version 1.2.0
+
+* Added new policy, "AWS EC2 - CPU Threshold Exceeded"
+* Defined units for the metrics
 
 ###Version 1.1.1
 
