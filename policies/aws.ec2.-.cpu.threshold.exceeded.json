@@ -1,0 +1,29 @@
+{
+  "policy" : {
+    "id" : null,
+    "name" : "AWS EC2 - CPU Threshold Exceeded",
+    "description" : "The CPU on the EC2 instance has exceeded 95% for at least 15 minutes.",
+    "scope" : {
+      "elementName" : "",
+      "elementType" : "EC2",
+      "elementTags" : { }
+    },
+    "duration" : 900,
+    "conditions" : [ {
+      "metric" : "aws.ec2.cpuutilization",
+      "wildcard" : null,
+      "analytic" : "actual",
+      "operator" : ">",
+      "level" : 95.0
+    } ],
+    "actions" : [ {
+      "type" : "event",
+      "category" : 3
+    } ],
+    "enabled" : true,
+    "deleted" : false,
+    "originTenantId" : null,
+    "originPolicyId" : null,
+    "lastUpdated" : null
+  }
+}
