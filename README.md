@@ -3,7 +3,8 @@
 ##Release History
 
 ###Version 1.3.0
-* Added EC2-specific element detail summary page.
+* Added EC2-specific element detail page.
+* Changed "sum" to "avg" on summary dashboard widgets.
 
 ###Version 1.2.0
 
