@@ -17,31 +17,6 @@
     "created" : "2016-02-19T17:22:24Z",
     "updated" : "2016-03-10T21:24:02Z",
     "widgets" : [ {
-      "id" : "d657c086-d000-3794-9e20-731edb21df7a",
-      "name" : "Highest CPU Utilization",
-      "description" : null,
-      "widgetType" : "high-low-metric",
-      "properties" : {
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "metricLimit" : "5",
-        "elementScopeTypes" : "[\"EC2\"]",
-        "metricUnit" : null,
-        "groupName" : null,
-        "showHighest" : "true",
-        "elementNameContains" : null,
-        "metric_fqn" : "aws.ec2.cpuutilization",
-        "width" : "auto",
-        "metrics" : "[]",
-        "selectedTab" : "graph"
-      },
-      "dashboardId" : null,
-      "userId" : null,
-      "created" : "2016-03-10T21:24:02Z",
-      "updated" : "2016-03-10T21:24:02Z"
-    }, {
       "id" : "0ad5d676-47df-3b02-90ec-b685d07a2b43",
       "name" : "EC2 Network Out",
       "description" : null,
@@ -58,6 +33,31 @@
         "showHighest" : "true",
         "elementNameContains" : null,
         "metric_fqn" : "aws.ec2.networkout",
+        "width" : "auto",
+        "metrics" : "[]",
+        "selectedTab" : "graph"
+      },
+      "dashboardId" : null,
+      "userId" : null,
+      "created" : "2016-03-10T21:24:02Z",
+      "updated" : "2016-03-10T21:24:02Z"
+    }, {
+      "id" : "d657c086-d000-3794-9e20-731edb21df7a",
+      "name" : "Highest CPU Utilization",
+      "description" : null,
+      "widgetType" : "high-low-metric",
+      "properties" : {
+        "showElementTotal" : "true",
+        "selectedAttributes" : "[]",
+        "useElementNameContains" : "true",
+        "element_id" : null,
+        "metricLimit" : "5",
+        "elementScopeTypes" : "[\"EC2\"]",
+        "metricUnit" : null,
+        "groupName" : null,
+        "showHighest" : "true",
+        "elementNameContains" : null,
+        "metric_fqn" : "aws.ec2.cpuutilization",
         "width" : "auto",
         "metrics" : "[]",
         "selectedTab" : "graph"
