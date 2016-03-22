@@ -14,37 +14,55 @@
       "wildcard" : null,
       "analytic" : "baselineDeviation",
       "operator" : "undefined",
-      "level" : null
+      "level" : null,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
     }, {
       "metric" : "netuitive.aws.ec2.bytesinpersec",
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : "undefined",
-      "level" : null
+      "level" : null,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
     }, {
       "metric" : "aws.ec2.cpuutilization",
       "wildcard" : null,
       "analytic" : "baselineDeviation",
       "operator" : ">",
-      "level" : null
+      "level" : null,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
     }, {
       "metric" : "aws.ec2.cpuutilization",
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : ">",
-      "level" : null
+      "level" : null,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
     }, {
       "metric" : "netuitive.aws.ec2.bytesoutpersec",
       "wildcard" : null,
       "analytic" : "baselineDeviation",
       "operator" : "undefined",
-      "level" : null
+      "level" : null,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
     }, {
       "metric" : "netuitive.aws.ec2.bytesoutpersec",
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : "undefined",
-      "level" : null
+      "level" : null,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
     } ],
     "actions" : [ {
       "type" : "event",

@@ -1,6 +1,6 @@
 {
   "id" : "netuitive.packages.aws.ec2",
-  "version" : "1.2.0",
+  "version" : "1.3.0",
   "manifest" : {
     "name" : "Netuitive Packages AWS EC2",
     "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of AWS Elastic Compute Cloud (EC2) resources.",
@@ -63,6 +63,12 @@
   "dashboards" : [ {
     "data" : {
       "file" : "dashboards/aws.ec2.summary.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "dashboards/aws.ec2.element.detail.json",
       "encoding" : "application/json",
       "content" : null
     }
