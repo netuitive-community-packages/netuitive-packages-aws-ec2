@@ -14,8 +14,8 @@
     "tenantId" : null,
     "userId" : null,
     "creatorEmail" : null,
-    "created" : "2016-02-19T17:22:24Z",
-    "updated" : "2016-03-10T21:24:02Z",
+    "created" : "2016-03-17T13:50:42Z",
+    "updated" : "2016-03-17T13:50:42Z",
     "widgets" : [ {
       "id" : "0ad5d676-47df-3b02-90ec-b685d07a2b43",
       "name" : "EC2 Network Out",
@@ -39,8 +39,8 @@
       },
       "dashboardId" : null,
       "userId" : null,
-      "created" : "2016-03-10T21:24:02Z",
-      "updated" : "2016-03-10T21:24:02Z"
+      "created" : "2016-03-17T13:50:42Z",
+      "updated" : "2016-03-17T13:50:42Z"
     }, {
       "id" : "d657c086-d000-3794-9e20-731edb21df7a",
       "name" : "Highest CPU Utilization",
@@ -64,8 +64,8 @@
       },
       "dashboardId" : null,
       "userId" : null,
-      "created" : "2016-03-10T21:24:02Z",
-      "updated" : "2016-03-10T21:24:02Z"
+      "created" : "2016-03-17T13:50:42Z",
+      "updated" : "2016-03-17T13:50:42Z"
     }, {
       "id" : "f812222d-8390-3f71-b3ec-c72bc9a90184",
       "name" : "EC2 Metric Aggregation",
@@ -94,8 +94,8 @@
       },
       "dashboardId" : null,
       "userId" : null,
-      "created" : "2016-03-10T21:24:02Z",
-      "updated" : "2016-03-10T21:24:02Z"
+      "created" : "2016-03-17T13:50:42Z",
+      "updated" : "2016-03-17T13:50:42Z"
     }, {
       "id" : "341220f0-2e00-3ec1-855e-a9859fec2e2c",
       "name" : "EC2 Network In",
@@ -119,8 +119,8 @@
       },
       "dashboardId" : null,
       "userId" : null,
-      "created" : "2016-03-10T21:24:02Z",
-      "updated" : "2016-03-10T21:24:02Z"
+      "created" : "2016-03-17T13:50:42Z",
+      "updated" : "2016-03-17T13:50:42Z"
     }, {
       "id" : "18989dec-547f-3ce1-b601-14557108ced2",
       "name" : "EC2 Types",
@@ -144,8 +144,8 @@
       },
       "dashboardId" : null,
       "userId" : null,
-      "created" : "2016-03-10T21:24:02Z",
-      "updated" : "2016-03-10T21:24:02Z"
+      "created" : "2016-03-17T13:50:42Z",
+      "updated" : "2016-03-17T13:50:42Z"
     } ],
     "type" : "DEFAULT",
     "private" : false
