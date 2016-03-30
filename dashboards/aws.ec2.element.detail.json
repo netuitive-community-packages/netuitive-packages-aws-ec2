@@ -15,7 +15,7 @@
     "userId" : null,
     "creatorEmail" : null,
     "created" : "2016-03-16T13:32:27Z",
-    "updated" : "2016-03-16T20:59:11Z",
+    "updated" : "2016-03-17T21:09:25Z",
     "widgets" : [ {
       "id" : "723e0979-2146-4525-b3aa-3f04f5f7a531",
       "name" : "Attributes",
@@ -129,36 +129,6 @@
       "created" : "2016-03-16T13:37:26Z",
       "updated" : "2016-03-16T13:37:50Z"
     }, {
-      "id" : "605b1e67-dcfa-4507-beca-21c7e69db323",
-      "name" : "Events",
-      "description" : null,
-      "widgetType" : "event-ticker",
-      "properties" : {
-        "visualization" : null,
-        "showElementTotal" : "true",
-        "selectedAttributes" : "[]",
-        "elementScopeTags" : "[]",
-        "useElementNameContains" : "true",
-        "element_id" : null,
-        "elementScopeTypes" : "[]",
-        "metricLimit" : "10",
-        "metricUnit" : null,
-        "metricAggs" : "[]",
-        "elementScopeIds" : "[]",
-        "elementScopeAttributes" : "[]",
-        "groupName" : null,
-        "elementNameContains" : "Research Linux 01",
-        "showHighest" : "true",
-        "metric_fqn" : null,
-        "width" : "medium",
-        "metrics" : "[]",
-        "selectedTab" : "table"
-      },
-      "dashboardId" : null,
-      "userId" : null,
-      "created" : "2016-03-16T13:38:40Z",
-      "updated" : "2016-03-16T13:39:10Z"
-    }, {
       "id" : "5719ebae-6fcb-4549-8d30-41503ad31288",
       "name" : "CPU Utilization",
       "description" : null,
@@ -188,6 +158,36 @@
       "userId" : null,
       "created" : "2016-03-16T13:33:59Z",
       "updated" : "2016-03-16T13:34:50Z"
+    }, {
+      "id" : "605b1e67-dcfa-4507-beca-21c7e69db323",
+      "name" : "Events",
+      "description" : null,
+      "widgetType" : "event-ticker",
+      "properties" : {
+        "visualization" : null,
+        "showElementTotal" : "true",
+        "selectedAttributes" : "[]",
+        "elementScopeTags" : "[]",
+        "useElementNameContains" : "true",
+        "element_id" : null,
+        "elementScopeTypes" : "[]",
+        "metricLimit" : "10",
+        "metricUnit" : null,
+        "metricAggs" : "[]",
+        "elementScopeIds" : "[]",
+        "elementScopeAttributes" : "[]",
+        "groupName" : null,
+        "elementNameContains" : "Research Linux 01",
+        "showHighest" : "true",
+        "metric_fqn" : null,
+        "width" : "medium",
+        "metrics" : "[]",
+        "selectedTab" : "table"
+      },
+      "dashboardId" : null,
+      "userId" : null,
+      "created" : "2016-03-16T13:38:40Z",
+      "updated" : "2016-03-16T13:39:10Z"
     } ],
     "type" : "EC2",
     "private" : false
