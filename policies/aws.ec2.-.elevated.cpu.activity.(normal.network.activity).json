@@ -2,7 +2,7 @@
   "policy" : {
     "id" : null,
     "name" : "AWS EC2 - Elevated CPU Activity (Normal Network Activity)",
-    "description" : "Increases in CPU activity are not uncommon when there is a rise in network activity. Increased traffic to a server means more work for that server to do. This policy is designed to catch cases where CPU activity is higher than than normal, and said behavior cannot be explained by a corresponding increase in network traffic. It may or may not represent a problem, but it is useful to know about. ",
+    "description" : "Increases in CPU activity are not uncommon when there is a rise in network activity. Increased traffic to a server means more work for that server to do. This policy is designed to catch cases where CPU activity is higher than than normal, and said behavior cannot be explained by a corresponding increase in network traffic. It may or may not represent a problem, but it is useful to know about.  This policy will not raise an event if CPU is under 20%.",
     "scope" : {
       "elementName" : "",
       "elementType" : "EC2",
@@ -10,24 +10,6 @@
     },
     "duration" : 1800,
     "conditions" : [ {
-      "metric" : "netuitive.aws.ec2.bytesinpersec",
-      "wildcard" : null,
-      "analytic" : "baselineDeviation",
-      "operator" : "undefined",
-      "level" : null,
-      "level2" : null,
-      "metricThresholdLevel" : null,
-      "metricThresholdAnalytic" : null
-    }, {
-      "metric" : "netuitive.aws.ec2.bytesinpersec",
-      "wildcard" : null,
-      "analytic" : "contextualDeviation",
-      "operator" : "undefined",
-      "level" : null,
-      "level2" : null,
-      "metricThresholdLevel" : null,
-      "metricThresholdAnalytic" : null
-    }, {
       "metric" : "aws.ec2.cpuutilization",
       "wildcard" : null,
       "analytic" : "baselineDeviation",
@@ -41,6 +23,33 @@
       "wildcard" : null,
       "analytic" : "contextualDeviation",
       "operator" : ">",
+      "level" : null,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
+    }, {
+      "metric" : "aws.ec2.cpuutilization",
+      "wildcard" : null,
+      "analytic" : "actual",
+      "operator" : ">=",
+      "level" : 20.0,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
+    }, {
+      "metric" : "netuitive.aws.ec2.bytesinpersec",
+      "wildcard" : null,
+      "analytic" : "baselineDeviation",
+      "operator" : "undefined",
+      "level" : null,
+      "level2" : null,
+      "metricThresholdLevel" : null,
+      "metricThresholdAnalytic" : null
+    }, {
+      "metric" : "netuitive.aws.ec2.bytesinpersec",
+      "wildcard" : null,
+      "analytic" : "contextualDeviation",
+      "operator" : "undefined",
       "level" : null,
       "level2" : null,
       "metricThresholdLevel" : null,
