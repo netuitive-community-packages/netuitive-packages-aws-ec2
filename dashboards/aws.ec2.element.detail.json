@@ -109,17 +109,20 @@
         "selectedAttributes" : "[]",
         "elementScopeTags" : "[]",
         "useElementNameContains" : "true",
+        "useAllElementScopeTags" : "false",
         "element_id" : null,
-        "elementScopeTypes" : "[]",
         "metricLimit" : "10",
+        "elementScopeTypes" : "[\"EC2\"]",
+        "useAllMetricScopeTags" : "false",
         "metricUnit" : null,
         "metricAggs" : "[]",
         "elementScopeIds" : "[]",
         "elementScopeAttributes" : "[]",
         "groupName" : null,
-        "elementNameContains" : "Research Linux 01",
+        "elementNameContains" : "",
         "showHighest" : "true",
         "metric_fqn" : null,
+        "metricScopeTags" : "[]",
         "width" : "medium",
         "metrics" : "[{\"fqn\":\"netuitive.aws.ec2.bytesinpersec\",\"aggFns\":[]},{\"fqn\":\"netuitive.aws.ec2.bytesoutpersec\",\"aggFns\":[]}]",
         "selectedTab" : "table"
@@ -127,7 +130,7 @@
       "dashboardId" : null,
       "userId" : null,
       "created" : "2016-03-16T13:37:26Z",
-      "updated" : "2016-03-16T13:37:50Z"
+      "updated" : "2016-07-14T11:34:13Z"
     }, {
       "id" : "5719ebae-6fcb-4549-8d30-41503ad31288",
       "name" : "CPU Utilization",

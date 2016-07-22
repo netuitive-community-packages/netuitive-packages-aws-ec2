@@ -1,6 +1,6 @@
 {
   "id" : "netuitive.packages.aws.ec2",
-  "version" : "1.4.1",
+  "version" : "1.4.2",
   "manifest" : {
     "name" : "Netuitive Packages AWS EC2",
     "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of AWS Elastic Compute Cloud (EC2) resources.",
