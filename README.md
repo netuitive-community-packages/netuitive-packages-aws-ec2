@@ -1,8 +1,12 @@
-#netuitive.packages.aws.ec2 1.4.3
+#netuitive.packages.aws.ec2 1.4.4
 
 For detailed information on this package, please refer to the [online documentation](https://help.app.netuitive.com/Content/Misc/Datasources/AWS/new_aws_datasource.htm).
 
 ##Release History
+
+###Version 1.4.4
+
+* Changed the CPU Threshold Exceeded policy to be disabled by default, as it can be noisy for some customers.
 
 ###Version 1.4.3
 
