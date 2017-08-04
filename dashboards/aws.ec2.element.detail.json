@@ -10,7 +10,7 @@
       "density" : "normal",
       "refreshIntervalSeconds" : "300",
       "wrap" : "true",
-      "gridstackContents": "[{\"id\":\"75e0ba57-08d7-4516-b122-8ee1d3e2eff5\",\"x\":0,\"y\":0,\"width\":4,\"height\":9},{\"id\":\"723e0979-2146-4525-b3aa-3f04f5f7a531\",\"x\":6,\"y\":9,\"width\":6,\"height\":9},{\"id\":\"5e67ae80-4209-417c-a2b1-3bbd25f860e9\",\"x\":0,\"y\":9,\"width\":6,\"height\":9},{\"id\":\"7a42d7c4-4d55-4ad5-b9a3-194bc51884e5\",\"x\":8,\"y\":0,\"width\":4,\"height\":9},{\"id\":\"5719ebae-6fcb-4549-8d30-41503ad31288\",\"x\":4,\"y\":0,\"width\":4,\"height\":9},{\"id\":\"605b1e67-dcfa-4507-beca-21c7e69db323\",\"x\":0,\"y\":18,\"width\":12,\"height\":9},{\"id\":\"4f87d0fb-3b35-46b1-a12e-764682097b7c\",\"x\":0,\"y\":0,\"width\":4,\"height\":9}]"
+      "gridstackContents": "[{\"id\":\"75e0ba57-08d7-4516-b122-8ee1d3e2eff5\",\"x\":0,\"y\":0,\"width\":4,\"height\":9},{\"id\":\"723e0979-2146-4525-b3aa-3f04f5f7a531\",\"x\":6,\"y\":9,\"width\":6,\"height\":9},{\"id\":\"5e67ae80-4209-417c-a2b1-3bbd25f860e9\",\"x\":0,\"y\":9,\"width\":6,\"height\":9},{\"id\":\"7a42d7c4-4d55-4ad5-b9a3-194bc51884e5\",\"x\":8,\"y\":0,\"width\":4,\"height\":9},{\"id\":\"5719ebae-6fcb-4549-8d30-41503ad31288\",\"x\":4,\"y\":0,\"width\":4,\"height\":9},{\"id\":\"605b1e67-dcfa-4507-beca-21c7e69db323\",\"x\":0,\"y\":18,\"width\":12,\"height\":9}]"
     },
     "tenantId" : null,
     "userId" : null,
