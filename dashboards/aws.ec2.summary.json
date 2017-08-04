@@ -36,8 +36,7 @@
         "elementNameContains" : null,
         "metric_fqn" : "aws.ec2.cpuutilization",
         "width" : "auto",
-        "metrics" : "[]",
-        "selectedTab" : "graph"
+        "metrics" : "[]"
       },
       "dashboardId" : null,
       "userId" : null,
