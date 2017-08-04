@@ -1,8 +1,11 @@
-# netuitive.packages.aws.ec2 1.5.0
+# netuitive.packages.aws.ec2
 
 For detailed information on this package, please refer to the [online documentation](https://help.netuitive.com/Content/Integrations/aws.htm).
 
 ## Release History
+
+* Removed EC2 Metric Aggregation and EC2 Types widgets
+* Updated Element Detail dashboard layout
 
 ### Version 1.5.0
 
