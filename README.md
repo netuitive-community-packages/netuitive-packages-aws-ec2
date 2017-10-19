@@ -4,6 +4,10 @@ For detailed information on this package, please refer to the [online documentat
 
 ## Release History
 
+### Version 1.7.0
+
+* Updates to EC2 Summary dashboard
+
 ### Version 1.6.0
 
 * Removed EC2 Metric Aggregation and EC2 Types widgets
