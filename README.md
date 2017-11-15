@@ -4,6 +4,10 @@ For detailed information on this package, please refer to the [online documentat
 
 ## Release History
 
+### Version next
+
+* Fix for network metrics match expression
+
 ### Version 1.7.0
 
 * Updates to EC2 Summary dashboard
