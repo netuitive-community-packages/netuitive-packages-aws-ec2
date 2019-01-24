@@ -7,6 +7,7 @@ For detailed information on this package, please refer to the [online documentat
 ### Version next
 
 * Adjusted build to use metricly-cli for validation
+* Convert computed metrics to new format
 
 ### Version 1.7.1
 
