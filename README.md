@@ -6,6 +6,8 @@ For detailed information on this package, please refer to the [online documentat
 
 ### Version next
 
+### Version 1.8.0
+
 * Adjusted build to use metricly-cli for validation
 * Convert computed metrics to new format
 
