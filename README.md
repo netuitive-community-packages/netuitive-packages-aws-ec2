@@ -4,6 +4,13 @@ For detailed information on this package, please refer to the [online documentat
 
 ## Release History
 
+### Version next
+
+### Version 1.8.0
+
+* Adjusted build to use metricly-cli for validation
+* Convert computed metrics to new format
+
 ### Version 1.7.1
 
 * Fix for network metrics match expression

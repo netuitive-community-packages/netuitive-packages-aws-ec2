@@ -1,68 +1,40 @@
 {
-  "policy" : {
-    "id" : null,
-    "name" : "AWS EC2 - Elevated Ephemeral Disk Activity",
-    "description" : "Indicates an increase in disk activity above what is considered to be normal.",
-    "scope" : {
-      "elementName" : "",
-      "elementNameExclude" : null,
-      "fqnIncludes" : [ ],
-      "fqnExcludes" : [ ],
-      "elementType" : "EC2",
-      "elementTags" : { }
-    },
-    "duration" : 1800,
-    "conditions" : [ {
-      "metric" : "netuitive.aws.ec2.diskwriteopspersec",
-      "wildcard" : null,
-      "metricScopeTags" : { },
-      "analytic" : "baselineDeviation",
-      "operator" : ">",
-      "level" : null,
-      "level2" : null,
-      "metricThresholdLevel" : null,
-      "metricThresholdAnalytic" : null
-    }, {
-      "metric" : "netuitive.aws.ec2.diskwriteopspersec",
-      "wildcard" : null,
-      "metricScopeTags" : { },
-      "analytic" : "contextualDeviation",
-      "operator" : ">",
-      "level" : null,
-      "level2" : null,
-      "metricThresholdLevel" : null,
-      "metricThresholdAnalytic" : null
-    }, {
-      "metric" : "netuitive.aws.ec2.diskreadopspersec",
-      "wildcard" : null,
-      "metricScopeTags" : { },
-      "analytic" : "baselineDeviation",
-      "operator" : ">",
-      "level" : null,
-      "level2" : null,
-      "metricThresholdLevel" : null,
-      "metricThresholdAnalytic" : null
-    }, {
-      "metric" : "netuitive.aws.ec2.diskreadopspersec",
-      "wildcard" : null,
-      "metricScopeTags" : { },
-      "analytic" : "contextualDeviation",
-      "operator" : ">",
-      "level" : null,
-      "level2" : null,
-      "metricThresholdLevel" : null,
-      "metricThresholdAnalytic" : null
-    } ],
-    "eventConditions" : [ ],
-    "actions" : [ {
-      "type" : "event",
-      "category" : 1
-    } ],
-    "enabled" : true,
-    "deleted" : false,
-    "originTenantId" : null,
-    "originPolicyId" : null,
-    "creatorEmail" : null,
-    "lastUpdated" : null
+  "policy": {
+    "actions": [
+      {
+        "category": 1,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "baselineDeviation",
+        "metric": "netuitive.aws.ec2.diskwriteopspersec",
+        "operator": ">"
+      },
+      {
+        "analytic": "contextualDeviation",
+        "metric": "netuitive.aws.ec2.diskwriteopspersec",
+        "operator": ">"
+      },
+      {
+        "analytic": "baselineDeviation",
+        "metric": "netuitive.aws.ec2.diskreadopspersec",
+        "operator": ">"
+      },
+      {
+        "analytic": "contextualDeviation",
+        "metric": "netuitive.aws.ec2.diskreadopspersec",
+        "operator": ">"
+      }
+    ],
+    "deleted": false,
+    "description": "Indicates an increase in disk activity above what is considered to be normal.",
+    "duration": 1800,
+    "enabled": true,
+    "name": "AWS EC2 - Elevated Ephemeral Disk Activity",
+    "scope": {
+      "elementType": "EC2"
+    }
   }
 }
