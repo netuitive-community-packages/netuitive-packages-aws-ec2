@@ -53,21 +53,21 @@
         "id": "416e406a-5702-4142-8013-3467f04e10ed",
         "name": "Tags",
         "properties": {
-          "visualization": null,
+
           "showElementTotal": "true",
           "selectedAttributes": "[]",
           "elementScopeTags": "[]",
           "useElementNameContains": "true",
           "elementScopeTypes": "[]",
           "metricLimit": "10",
-          "metricUnit": null,
+
           "metricAggs": "[]",
           "elementScopeIds": "[]",
           "elementScopeAttributes": "[]",
-          "groupName": null,
-          "elementNameContains": null,
+
+
           "showHighest": "true",
-          "metric_fqn": null,
+
           "width": "medium",
           "metrics": "[]",
           "selectedTab": "table"
@@ -106,24 +106,24 @@
         "id": "b79727dc-4051-4c46-b9be-7f99de9e538d",
         "name": "Events",
         "properties": {
-          "visualization": null,
+
           "showElementTotal": "true",
           "selectedAttributes": "[]",
           "elementScopeTags": "[]",
           "useElementNameContains": "true",
           "useAllElementScopeTags": "false",
-          "element_id": null,
+
           "elementScopeTypes": "[\"EC2\"]",
           "metricLimit": "10",
           "useAllMetricScopeTags": "false",
-          "metricUnit": null,
+
           "metricAggs": "[]",
           "elementScopeIds": "[]",
           "elementScopeAttributes": "[]",
-          "groupName": null,
+
           "elementNameContains": "",
           "showHighest": "true",
-          "metric_fqn": null,
+
           "metricScopeTags": "[]",
           "width": "medium",
           "metrics": "[]",
@@ -203,12 +203,12 @@
           "elementScopeTypes": "[]",
           "metricLimit": "10",
           "useAllMetricScopeTags": "true",
-          "metricUnit": null,
+
           "metricAggs": "[\"avg\"]",
           "elementScopeIds": "[]",
           "elementScopeAttributes": "[]",
-          "groupName": null,
-          "elementNameContains": null,
+
+
           "showHighest": "true",
           "metric_fqn": "aws.ec2.cpuutilization",
           "metricScopeTags": "[]",
@@ -260,24 +260,24 @@
         "id": "bc39d793-ef0f-4b6f-9e31-283c9a891162",
         "name": "Network Bytes In and Out Per Second",
         "properties": {
-          "visualization": null,
+
           "showElementTotal": "true",
           "selectedAttributes": "[]",
           "elementScopeTags": "[]",
           "useElementNameContains": "true",
           "useAllElementScopeTags": "false",
-          "element_id": null,
+
           "metricLimit": "10",
           "elementScopeTypes": "[\"EC2\"]",
           "useAllMetricScopeTags": "false",
-          "metricUnit": null,
+
           "metricAggs": "[]",
           "elementScopeIds": "[]",
           "elementScopeAttributes": "[]",
-          "groupName": null,
+
           "elementNameContains": "",
           "showHighest": "true",
-          "metric_fqn": null,
+
           "metricScopeTags": "[]",
           "width": "medium",
           "metrics": "[{\"fqn\":\"netuitive.aws.ec2.bytesinpersec\",\"aggFns\":[]},{\"fqn\":\"netuitive.aws.ec2.bytesoutpersec\",\"aggFns\":[]}]",

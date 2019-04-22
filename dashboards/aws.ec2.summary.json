@@ -21,9 +21,9 @@
           "useAllElementScopeTags": "true",
           "metricLimit": "10",
           "showBands": "true",
-          "metricUnit": null,
+
           "elementScopeAttributes": "[]",
-          "elementNameContains": null,
+
           "showHighest": "true",
           "metric_fqn": "aws.ec2.cpuutilization",
           "notificationPeriod": "off",
@@ -36,7 +36,7 @@
           "useAllMetricScopeTags": "true",
           "metricAggs": "[]",
           "elementScopeIds": "[]",
-          "groupName": null,
+
           "metricScopeTags": "[]",
           "groupByPolicy": "false",
           "useAllElementScopeAttributes": "true",
@@ -58,9 +58,9 @@
           "useAllElementScopeTags": "true",
           "metricLimit": "5",
           "showBands": "true",
-          "metricUnit": null,
+
           "elementScopeAttributes": "[]",
-          "elementNameContains": null,
+
           "showHighest": "true",
           "metric_fqn": "aws.ec2.networkout",
           "notificationPeriod": "off",
@@ -73,7 +73,7 @@
           "useAllMetricScopeTags": "true",
           "metricAggs": "[]",
           "elementScopeIds": "[]",
-          "groupName": null,
+
           "metricScopeTags": "[]",
           "groupByPolicy": "false",
           "useAllElementScopeAttributes": "true",
@@ -95,9 +95,9 @@
           "useAllElementScopeTags": "true",
           "metricLimit": "5",
           "showBands": "true",
-          "metricUnit": null,
+
           "elementScopeAttributes": "[]",
-          "elementNameContains": null,
+
           "showHighest": "true",
           "metric_fqn": "aws.ec2.networkin",
           "notificationPeriod": "off",
@@ -110,7 +110,7 @@
           "useAllMetricScopeTags": "true",
           "metricAggs": "[]",
           "elementScopeIds": "[]",
-          "groupName": null,
+
           "metricScopeTags": "[]",
           "groupByPolicy": "false",
           "useAllElementScopeAttributes": "true",
@@ -132,9 +132,9 @@
           "useAllElementScopeTags": "true",
           "metricLimit": "10",
           "showBands": "true",
-          "metricUnit": null,
+
           "elementScopeAttributes": "[]",
-          "elementNameContains": null,
+
           "showHighest": "true",
           "metric_fqn": "aws.ec2.cpucreditbalance",
           "notificationPeriod": "off",
@@ -147,7 +147,7 @@
           "useAllMetricScopeTags": "true",
           "metricAggs": "[]",
           "elementScopeIds": "[]",
-          "groupName": null,
+
           "metricScopeTags": "[]",
           "groupByPolicy": "false",
           "useAllElementScopeAttributes": "true",
