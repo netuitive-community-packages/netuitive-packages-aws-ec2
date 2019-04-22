@@ -2,6 +2,8 @@
 
 ### Version next
 
+* Refresh EC2 Summary and EC2 Element Detail dashboards
+
 ### Version 1.8.0
 
 * Adjusted build to use metricly-cli for validation
