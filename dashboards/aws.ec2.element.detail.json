@@ -309,7 +309,6 @@
           "elementScopeTypes": "[]",
           "grouping": "attribute=SERVICE",
           "useAllMetricScopeTags": "true",
-          "element_fqn": "502379301106:EC2:us-east-1:i-9d5368ce",
           "metricAggs": "[]",
           "elementScopeIds": "[]",
           "metricScopeTags": "[]",
