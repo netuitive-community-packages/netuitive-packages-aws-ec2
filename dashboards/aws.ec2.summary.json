@@ -100,7 +100,7 @@
           "period": "latest1",
           "showBands": "true",
           "showElementTotal": "true",
-          "showHighest": "true",
+          "showHighest": "false",
           "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
           "topNLimit": "5",
           "useAllElementScopeAttributes": "true",
