@@ -16,7 +16,7 @@
       {
         "created": "2016-03-16T13:35:10Z",
         "id": "85f538f3-a8d5-4e03-81c2-5189902823dc",
-        "name": "Credit Usage and Balance",
+        "name": "CPU Credit Usage & Balance",
         "properties": {
           "colorByMetric": "false",
           "groupByPolicy": "false",
@@ -157,7 +157,7 @@
       {
         "created": "2016-03-16T13:38:40Z",
         "id": "0b1ee357-0bc9-4e9d-a235-c9c1a55e0fda",
-        "name": "Failed System Status Checks",
+        "name": "Failed System Checks",
         "properties": {
           "colorByMetric": "false",
           "groupByPolicy": "false",
@@ -203,7 +203,7 @@
       {
         "created": "2016-03-16T13:38:40Z",
         "id": "585e98bc-c1a9-4593-ad27-d03958dfda96",
-        "name": "Failed Instance Status Checks",
+        "name": "Failed Instance Checks",
         "properties": {
           "colorByMetric": "false",
           "groupByPolicy": "false",
