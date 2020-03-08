@@ -2,6 +2,8 @@
 
 ### Version next
 
+* Convert single elementType to elementTypes array in policy scope
+
 ### Version 2.0.0
 
 * Refresh EC2 Summary and EC2 Element Detail dashboards

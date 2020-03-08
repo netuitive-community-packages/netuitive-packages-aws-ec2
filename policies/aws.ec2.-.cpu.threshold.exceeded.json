@@ -20,7 +20,9 @@
     "enabled": false,
     "name": "AWS EC2 - CPU Threshold Exceeded",
     "scope": {
-      "elementType": "EC2"
+      "elementTypes": [
+        "EC2"
+      ]
     }
   }
 }
