@@ -50,7 +50,9 @@
     "enabled": true,
     "name": "AWS EC2 - Elevated CPU Activity (Normal Network Activity)",
     "scope": {
-      "elementType": "EC2"
+      "elementTypes": [
+        "EC2"
+      ]
     }
   }
 }
