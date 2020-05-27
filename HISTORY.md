@@ -1,7 +1,7 @@
 ## Release History
 
 ### Version next
-
+* Add meta configuration for cloudwatch memory utilization metric
 * Convert single elementType to elementTypes array in policy scope
 
 ### Version 2.0.0
