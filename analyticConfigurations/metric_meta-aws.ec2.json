@@ -85,7 +85,9 @@
           "tags": {
             "unit": "percent",
             "utilization": true
-          }
+          },
+          "validMax": 100,
+          "validMin": 0
         }
       }
     ],
