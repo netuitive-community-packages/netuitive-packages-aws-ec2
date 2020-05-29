@@ -78,6 +78,17 @@
             "unit": "iops"
           }
         }
+      },
+      {
+        "match": "cwagent.mem_used_percent",
+        "properties": {
+          "tags": {
+            "unit": "percent",
+            "utilization": true
+          },
+          "validMax": 100,
+          "validMin": 0
+        }
       }
     ],
     "name": "AWS EC2",
