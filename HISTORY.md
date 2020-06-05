@@ -1,6 +1,7 @@
 ## Release History
 
 ### Version next
+* Add meta configuration for Windows cloudwatch memory utilization metric
 * Add meta configuration for cloudwatch memory utilization metric
 * Convert single elementType to elementTypes array in policy scope
 
