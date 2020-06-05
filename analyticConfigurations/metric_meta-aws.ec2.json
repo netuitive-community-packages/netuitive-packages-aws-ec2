@@ -89,6 +89,17 @@
           "validMax": 100,
           "validMin": 0
         }
+      },
+      {
+        "match": "cwagent.memory % committed bytes in use",
+        "properties": {
+          "tags": {
+            "unit": "percent",
+            "utilization": true
+          },
+          "validMax": 100,
+          "validMin": 0
+        }
       }
     ],
     "name": "AWS EC2",
