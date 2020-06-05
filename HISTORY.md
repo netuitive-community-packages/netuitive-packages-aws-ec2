@@ -1,6 +1,8 @@
 ## Release History
 
 ### Version next
+
+### Version 2.2.0
 * Add meta configuration for Windows cloudwatch memory utilization metric
 
 ### Version 2.1.0
